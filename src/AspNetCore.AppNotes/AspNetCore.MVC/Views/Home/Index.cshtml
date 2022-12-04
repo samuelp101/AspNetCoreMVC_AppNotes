@@ -6,3 +6,19 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<br />
+
+<button onclick="HelloWorld()">Say Hello</button>
+
+<h3>Content from TypeScript</h3>
+<div id="msg"></div>
+
+<script src="~/js/helloworld.js"></script>
+<script>
+    window.onload = OnLoad;
+
+    function OnLoad() {
+        console.log("Index page loaded!");
+    }
+</script>
